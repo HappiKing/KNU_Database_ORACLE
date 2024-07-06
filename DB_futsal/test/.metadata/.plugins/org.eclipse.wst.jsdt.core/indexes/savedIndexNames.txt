@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/happy/test/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+598602319.index
+1496004093.index
+3961253972.index
+2135442295.index
+447872215.index
+588512896.index
+893047124.index

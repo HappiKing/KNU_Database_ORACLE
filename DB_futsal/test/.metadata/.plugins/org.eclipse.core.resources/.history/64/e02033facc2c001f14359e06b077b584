@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>새 플레이어 추가</title>
+</head>
+<body>
+  <h2>새 플레이어 추가</h2>
+  <form action="/gg/playerControl" method="post">
+    <input type="hidden" name="action" value="addPlayer">
+    RRN: <input type="text" name="RRN"><br>
+    Name: <input type="text" name="NAME"><br>
+    Address: <input type="text" name="ADDRESS"><br>
+    Team ID: <input type="text" name="TEAM_ID"><br>
+    Rank ID: <input type="text" name="RANK_ID"><br>
+    <input type="submit" value="Add Player">
+  </form>
+
+  <hr>
+  <form action="/gg/playerControl" method="get">
+    <input type="hidden" name="action" value="list">
+    <input type="submit" value="Back to Player Info">
+  </form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+package sco;
+
+import java.io.Serializable;
+
+public class Player implements Serializable {
+    private static final long serialVersionUID = 1L;
+    
+    private String rrn;
+    private String name;
+    private String address;
+    private String teamId;
+    private String rankId;
+
+    // 무인자 생성자
+    public Player() {}
+
+    // getter와 setter 메소드
+    public String getRrn() {
+        return rrn;
+    }
+
+    public void setRrn(String rrn) {
+        this.rrn = rrn;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getTeamId() {
+        return teamId;
+    }
+
+    public void setTeamId(String teamId) {
+        this.teamId = teamId;
+    }
+
+    public String getRankId() {
+        return rankId;
+    }
+
+    public void setRankId(String rankId) {
+        this.rankId = rankId;
+    }
+}

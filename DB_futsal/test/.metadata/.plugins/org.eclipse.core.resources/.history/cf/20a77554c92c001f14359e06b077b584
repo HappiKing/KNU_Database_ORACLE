@@ -1,0 +1,9 @@
+package sco;
+
+public class Schedule {
+	private String Schedule_id;
+    private String NAME;
+    private String ADDRESS;
+    private String TEAM_ID;
+    private String RANK_ID;
+}

@@ -1,0 +1,21 @@
+1718588132107	Rename package 'test01'
+1718588157683	Copy package
+1718588225186	Copy file
+1718588385511	Rename type 'Dept01'
+1718588394261	Rename type 'Dept01Control'
+1718588403018	Rename type 'Dept01DAO'
+1718588430262	Rename resource 'studentInfo.jsp'
+1718588573535	Delete element
+1718588580715	Delete element
+1718588586478	Copy package
+1718588597601	Rename type 'Dept02'
+1718588601852	Rename type 'Dept02Control'
+1718588606211	Rename type 'Dept02DAO'
+1718588958521	Copy file
+1718588966849	Rename resource 'studentInfo2.jsp'
+1718589060203	Copy package
+1718589196821	Rename type 'Dept03'
+1718589401853	Rename type 'Dept03DAO'
+1718589425403	Rename type 'Dept03Control'
+1718589431794	Copy file
+1718589442562	Rename resource 'studentInfo3.jsp'
